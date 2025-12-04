@@ -1,6 +1,6 @@
 CXX = g++-11
 CXXFLAGS = -std=c++20 -Wall -Wextra -I./include
-TARGET = main
+TARGET = a.out
 SRC_DIR = src
 OBJ_DIR = build
 SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
